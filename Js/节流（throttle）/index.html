@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>函数节流与防抖</title>
+</head>
+<body>
+
+<button id="handle">正常处理</button>
+<button id="throttle">测试时间戳版</button>
+<button id="throttle1">测试定时器版</button>
+<button id="throttle2">结合版</button>
+
+
+<script src="index.js"></script>
+<script>
+  /* 处理点击事件的回调函数 */
+  function handleClick(event) { // 处理事件的回调
+    console.log('处理点击事件', this, event)
+  }
+
+  document.getElementById('handle').onclick = handleClick
+  document.getElementById('throttle').onclick = throttle_timestamp(handleClick, 2000)
+  document.getElementById('throttle1').onclick = throttle_timer(handleClick, 2000)
+  document.getElementById('throttle2').onclick = throttle(handleClick, 2000)
+</script>
+
+</body>
+</html>
