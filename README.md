@@ -4,4 +4,4 @@
 
 > Function类
 - 节流、防抖
-- [call、apply、bind](https://github.com/Moons99/study_notes/blob/master/Js/call、apply、bind)
+- [call、apply、bind](https://github.com/Moons99/interview_notes/tree/master/Js/call%E3%80%81apply%E3%80%81bind)
