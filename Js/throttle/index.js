@@ -1,5 +1,5 @@
 /**
- * 节流（throttle）:不管事件触发频率多高，只在单位时间内执行一次。
+ * throttle:不管事件触发频率多高，只在单位时间内执行一次。
  * @param callback
  * @param wait
  * @returns {(function(*): void)|*}
