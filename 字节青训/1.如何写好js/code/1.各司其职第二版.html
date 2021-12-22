@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      max-width: 600px;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    body {
+      padding: 10px;
+      box-sizing: border-box;
+      transition: all 1s;
+    }
+
+    #modeBtn {
+      font-size: 2rem;
+      float: right;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background: inherit;
+    }
+
+    .pic img{
+      width: 60%;
+      height: 400%;
+    }
+    body.night {
+      background-color: black;
+      color: white;
+      transition: all 1s;
+    }
+
+    #modeBtn::after {
+      content: '🌞';
+    }
+
+    body.night #modeBtn::after {
+      content: '🌜';
+    }
+  </style>
+
+</head>
+<body>
+<header>
+  <button id="modeBtn"></button>
+  <h1>深夜食堂~</h1>
+  <span>记笔记为主把， 想办法拓展到框架上封装</span>
+</header>
+
+<main>
+  <div class="pic">
+    <img src='../../../img/JavaScript_principle.jpg'>
+  </div>
+</main>
+
+
+<script type="text/javascript">
+  const btn = document.getElementById('modeBtn');
+  btn.addEventListener('click', (e) => {
+    const body = document.body;
+    if (body.className !== 'night') {
+      body.className = 'night';
+    } else {
+      body.className = '';
+    }
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>深夜食堂</title>
+  <style>
+    body, html {
+      width: 100%;
+      height: 100%;
+      max-width: 600px;
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    body {
+      box-sizing: border-box;
+    }
+
+    .content {
+      padding: 10px;
+      transition: background-color 1s, color 1s;
+    }
+
+    div.pic img {
+      width: 100%;
+    }
+
+    #modeCheckBox {
+      display: none;
+    }
+
+    #modeCheckBox:checked + .content {
+      background-color: black;
+      color: white;
+      transition: all 1s;
+    }
+
+    #modeBtn {
+      font-size: 2rem;
+      float: right;
+    }
+
+    #modeBtn::after {
+      content: '🌞';
+    }
+
+    #modeCheckBox:checked + .content #modeBtn::after {
+      content: '🌜';
+    }
+  </style>
+</head>
+<body>
+<input id="modeCheckBox" type="checkbox">
+<div class="content">
+  <header>
+    <label id="modeBtn" for="modeCheckBox"></label>
+    <h1>深夜食堂</h1>
+    <span>记笔记为主把， 想办法拓展到框架上封装</span>
+  </header>
+  <main>
+    <div class="pic">
+      <img src='../../../img/JavaScript_principle.jpg'>
+    </div>
+  </main>
+</div>
+</body>
+</html>
