@@ -12,6 +12,6 @@
 
 ## 字节青训
 
-- [1.如何写好js](https://github.com/Moons99/study_notes/blob/main/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/1.%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BDjs/README.md)
-- [web安全-攻击篇](https://github.com/Moons99/study_notes/blob/main/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/security/web-security-attack.md)
-- [web安全-防御篇](https://github.com/Moons99/study_notes/blob/main/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/security/web-security.md)
+- [1.如何写好js](https://github.com/Moons99/study_notes/blob/master/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/1.%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BDjs/README.md)
+- [web安全-攻击篇](https://github.com/Moons99/study_notes/blob/master/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/security/web-security-attack.md)
+- [web安全-防御篇](https://github.com/Moons99/study_notes/blob/master/%E5%AD%97%E8%8A%82%E9%9D%92%E8%AE%AD/security/web-security-defence.md)
