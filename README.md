@@ -10,3 +10,8 @@
 - [new](https://github.com/Moons99/interview_notes/blob/master/Js/new/README.md)  
 - Promise
     - [promise并发](https://github.com/Moons99/interview_notes/tree/master/Js/Promise/promise-limit.md)
+  
+
+## 字节青训
+
+- [如何写好js](./字节青训/1.如何写好js/README.md)
